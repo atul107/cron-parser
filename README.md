@@ -58,7 +58,7 @@ The project contains three main files:
 
 The test covers basic functionalities of both the **`CronField`** and **`CronParser`** classes:
 
-- For **`CronField`**, it tests parsing of all field types: **``** for every possible value, a range like **`5-9`**, a list like **`1,15,20`**, and a step value like **`/2`**.
+- For **`CronField`**, it tests parsing of all field types: for every possible value, a range like **`5-9`**, a list like **`1,15,20`**, and a step value like **`/2`**.
 - For **`CronParser`**, it includes tests for a valid cron string to check if the parsing is correctly applied, and also for an invalid cron string to ensure it raises a **`ValueError`** as expected.
 
 Run the tests with the following command in your terminal:
